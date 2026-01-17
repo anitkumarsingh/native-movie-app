@@ -1,3 +1,14 @@
+interface Project {
+  _id: string;
+  name: string;
+  description: string;
+  imageUrl: string;
+  contractTypeId: number | undefined;
+  contractSignedOn: Date;
+  budget: number;
+  isActive: boolean;
+}
+
 interface Movie {
   id: number;
   title: string;
